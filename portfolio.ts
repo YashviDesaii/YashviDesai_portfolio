@@ -296,7 +296,7 @@ export const seoData: SEODataType = {
   // description:
   //   'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Yashvi Desai',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  // image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://yashvi-desaii-portfolio.vercel.app/',
   keywords: [
     // 'Hanzla',

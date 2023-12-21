@@ -45,8 +45,7 @@ export type SkillsSectionType = {
 // * PROFICIENCY SECTION
 
 export type SkillBarsType = {
-  Stack: string;
-  progressPercentage: string;
+  softwareSkills: SoftwareSkillType[];
 };
 
 // * EDUCATION SECTION

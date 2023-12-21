@@ -1,43 +1,44 @@
 {
   "index.tsx -> ../components/GithubProfileCard": {
-    "id": 8077,
+    "id": "index.tsx -> ../components/GithubProfileCard",
     "files": [
-      "static/chunks/77.7c3b5748912cb822.js"
+      "static/chunks/components_GithubProfileCard_tsx.js"
     ]
   },
   "index.tsx -> ../components/Navigation": {
-    "id": 4880,
+    "id": "index.tsx -> ../components/Navigation",
     "files": [
-      "static/chunks/880.6171502185e67763.js"
+      "static/chunks/components_Navigation_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Education": {
-    "id": 4318,
+    "id": "index.tsx -> ../containers/Education",
     "files": [
-      "static/chunks/318.4fbfa498c2025f18.js"
+      "static/chunks/containers_Education_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Experience": {
-    "id": 2532,
+    "id": "index.tsx -> ../containers/Experience",
     "files": [
-      "static/chunks/532.cf01647d2a6e5075.js"
+      "static/chunks/containers_Experience_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Greetings": {
-    "id": 9471,
+    "id": "index.tsx -> ../containers/Greetings",
     "files": [
-      "static/chunks/ea88be26.c636940fa67ae4a2.js",
-      "static/chunks/464.0a7aa0d31d21811f.js",
-      "static/chunks/471.bc948f6061f26244.js"
+      "static/chunks/containers_Greetings_tsx.js"
+    ]
+  },
+  "index.tsx -> ../containers/Proficiency": {
+    "id": "index.tsx -> ../containers/Proficiency",
+    "files": [
+      "static/chunks/containers_Proficiency_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Skills": {
-    "id": 7007,
+    "id": "index.tsx -> ../containers/Skills",
     "files": [
-      "static/chunks/ea88be26.c636940fa67ae4a2.js",
-      "static/chunks/464.0a7aa0d31d21811f.js",
-      "static/chunks/731.413119472ecf4b4a.js",
-      "static/chunks/7.0fe775980a5b2e12.js"
+      "static/chunks/containers_Skills_tsx.js"
     ]
   }
 }

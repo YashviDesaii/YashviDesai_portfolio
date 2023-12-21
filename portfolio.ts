@@ -145,20 +145,93 @@ export const skillsSection: SkillsSectionType = {
   ],
 };
 
-// export const SkillBars: SkillBarsType[] = [
-//   {
-//     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-//     progressPercentage: '90', //Insert relative proficiency in percentage
-//   },
-//   {
-//     Stack: 'Backend',
-//     progressPercentage: '70',
-//   },
-//   {
-//     Stack: 'Programming',
-//     progressPercentage: '60',
-//   },
-// ];
+export const SkillBars: SkillBarsType[] = [
+  {
+    softwareSkills: [
+      // ? Check README To get icon details
+      {
+        skillName: 'Java',
+        iconifyTag: 'logos:java',
+      },
+      {
+        skillName: 'Python',
+        iconifyTag: 'logos:python',
+      },
+      {
+        skillName: 'JavaScript',
+        iconifyTag: 'logos:javascript',
+      },
+      {
+        skillName: 'C-Sharp',
+        iconifyTag: 'vscode-icons:file-type-csharp',
+      },
+      {
+        skillName: 'HTML5',
+        iconifyTag: 'vscode-icons:file-type-html',
+      },
+      {
+        skillName: 'CSS3',
+        iconifyTag: 'vscode-icons:file-type-css',
+      },
+      {
+        skillName: 'React',
+        iconifyTag: 'logos:react',
+      },
+      {
+        skillName: 'Angular',
+        iconifyTag: 'logos:angular',
+      },
+      {
+        skillName: 'Spring',
+        iconifyTag: 'logos:spring',
+      },
+      {
+        skillName: 'Django',
+        iconifyTag: 'logos:django',
+      },
+      {
+        skillName: 'Node',
+        iconifyTag: 'vscode-icons:file-type-node',
+      },
+      {
+        skillName: 'Android',
+        iconifyTag: 'logos:android',
+      },
+      {
+        skillName: 'ASP Dot Net Core',
+        iconifyTag: 'mdi:web',
+      },
+      {
+        skillName: 'Apache Kafka',
+        iconifyTag: 'logos:kafka',
+      },
+      {
+        skillName: 'MySQL',
+        iconifyTag: 'vscode-icons:file-type-mysql',
+      },
+      {
+        skillName: 'MongoDB',
+        iconifyTag: 'logos:mongodb',
+      },
+      {
+        skillName: 'Docker',
+        iconifyTag: 'logos:docker',
+      },
+      {
+        skillName: 'Github',
+        iconifyTag: 'akar-icons:github-fill',
+      },
+      {
+        skillName: 'AWS',
+        iconifyTag: 'logos:aws',
+      },
+      {
+        skillName: 'Jira',
+        iconifyTag: 'logos:jira',
+      },
+    ],
+  },
+];
 
 export const educationInfo: EducationType[] = [
   {
@@ -232,7 +305,9 @@ export const experience: ExperienceType[] = [
     //desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
     github: 'https://github.com/YashviDesaii/LAHacks2023',
     descBullets: [
-      emoji('⚡ add description here')
+      emoji('⚡ Created an application for students with disabilities which automatically converts the video recordings of a lecture to text using Google Speech-to-Text API'),
+      emoji('⚡ Utilized the generate dtranscript to provide students with a summary of the lecture for a qucik read'),
+      emoji('⚡ Built features like automated To-Do list, quiz generator using Cohere\'s generative API and won the "Best use of API challenge"'),
     ]
   },
   {

@@ -36,7 +36,7 @@ const Navigation = () => {
           <Container>
             <NavbarBrand href="/" className="mr-lg-5">
               <h2 className="text-white" id="nav-title">
-                {greetings.name}
+                {/* {greetings.name} */}
               </h2>
             </NavbarBrand>
             <button
@@ -57,7 +57,7 @@ const Navigation = () => {
                 <Row>
                   <Col className="collapse-brand" xs="6">
                     <h3 className="text-black" id="nav-title">
-                      {greetings.name}
+                      {/* {greetings.name} */}
                     </h3>
                   </Col>
                   <Col className="collapse-close" xs="6">

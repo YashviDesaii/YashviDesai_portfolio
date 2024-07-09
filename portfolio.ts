@@ -12,12 +12,12 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Yashvi Desai',
-  title: "Hey there, I'm Yashvi!",
+  // name: 'Yashvi Desai',
+  title: "Hey there, I'm Yashvi Desai!",
   description:
-    "I am a Software Developer pursuing my Master's degree in Software Engineering at San Jose State University. I like building solutions to solve real-world problems.",
+    "I am a Software Developer, recently graduated from San Jose State University with a Master's degree in Software Engineering. I like building solutions to solve real-world problems.",
   resumeLink:
-    'https://drive.google.com/file/d/1N0jWrumIUDeAGbZK2jsfd5s07xkN3k53/view?usp=drive_link',
+    'https://drive.google.com/file/d/1MUtwjjZX5c4u7sAMLI8-IZfOCwJpFMWQ/view?usp=sharing',
 };
 
 export const openSource = {
@@ -33,11 +33,11 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'My experience',
-  subTitle: 'A tech enthusiast looking to make a real world imapact through technology',
+  subTitle: 'A tech enthusiast looking to make a real world impact through technology',
   data: [
     {
       title: 'Software Engineer', //figure out how to add a hyperlink for company name
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/womanfullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Developed a system that delivers 500 GB of data while accommodating dynamic client requirements leveraging Microsoft Azure Blob Storage and creating RESTful APIs in C#'
@@ -71,15 +71,12 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'Software Engineering Intern', //figure out how to add a hyperlink for company name
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/software.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Upgraded an Android application from version 7 to 10 and fine-tuned it by making a notification channel for push notifications and retrieving user permissions on run-time using Java and Android Jetpack Components, increasing user engagement by 20%'),
-        emoji(
-          '⚡ Implemented Role-Based Authentication for 3 different authorization levels, ensuring security and data integrity'
-        ),
-        emoji(
-          '⚡ Modernized the application with features such as Geolocation, Asset Management and conducted testing and quality assurance achieving a 99% crash-free rate'
-        ),
+        emoji('⚡ Upgraded an Android application from version 7 to 10 and fine-tuned it using Java and Android Jetpack Components, increasing user engagement by 20%'),
+        emoji('⚡ Implemented Role-Based Authentication for 3 different authorization levels, ensuring security and data integrity'),
+        emoji('⚡ Participated in SDLC phases and modernized the application with features such as Geolocation, Asset Management and conducted testing achieving a 99% crash-free rate'),
+        emoji('⚡ Developed custom Android widgets using Java and XML resulting in a 15% improvement in app navigation efficiency'),
       ],
       softwareSkills: [
         // ? Check README To get icon details
@@ -240,7 +237,7 @@ export const educationInfo: EducationType[] = [
     subHeader: 'Master of Science in Software Engineering',
     graduation: 'Spring 2024',
     //desc: 'Participated in the research of XXX and published 3 papers.',
-    gpa: '3.7',
+    gpa: '3.85',
     descBullets: 'Related Courses: Web & Mobile Application Development, Data Mining, Enterprise Distributed Systems, Software Engineering Processes',
   },
   {
@@ -282,6 +279,19 @@ export const experience: ExperienceType[] = [
       emoji ('⚡ Integrated OAuth/OpenID support for Google and local account setup with email verification into an intuitive ReactJS frontend for user registration and authentication'),
       emoji('⚡ Built a comprehensive system with manager-defined policies, including custom rules for scheduling and bulk operations'),
       emoji('⚡ Leveraged RDS and deployed the application on AWS EC2 instances, employing a load balancer for high availability'),
+    ]
+  },
+  {
+    //role: 'Backend Developer',
+    projectName: 'FlowMaster-An AI Infused Project Management',
+    companyLogo: '/img/icons/common/AI_conclusion.jpg',
+    //date: 'Sept 2021',
+    //desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    github: 'https://github.com/dst2609/FlowMaster',
+    descBullets: [
+      emoji('⚡ Developed a React based user-friendly frontend interface that allows Scrum Masters to create, edit, and manage project tickets using drag-and-drop functionality'),
+      emoji('⚡ Applied ChatGPT’s contextual comprehension to transform vague project descriptions into accurately defined user stories leveraging Express for backend integration'),
+      emoji('⚡ Designed dynamic and responsive graphs using ChartJs to visualize sprint retrospective data enabling product managers to analyze and interpret the performance of team members'),
     ]
   },
   {

@@ -16,7 +16,7 @@ export type SocialLinksType = {
 // * HERO SECTION
 
 export type GreetingsType = {
-  name: string;
+  // name: string;
   title: string;
   description?: string;
   resumeLink?: string;

@@ -101,7 +101,7 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
-                {socialLinks.github && (
+                {/* {socialLinks.github && (
                   <NavItem>
                     <NavLink
                       rel="noopener"
@@ -132,7 +132,7 @@ const Navigation = () => {
                       </span>
                     </NavLink>
                   </NavItem>
-                )}
+                )} */}
                 {socialLinks.twitter && (
                   <NavItem>
                     <NavLink

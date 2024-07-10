@@ -284,7 +284,7 @@ export const experience: ExperienceType[] = [
   {
     //role: 'Backend Developer',
     projectName: 'FlowMaster-An AI Infused Project Management',
-    companyLogo: '/img/icons/common/AI_conclusion.jpg',
+    companyLogo: '/img/icons/common/AI_Conclusion.jpg',
     //date: 'Sept 2021',
     //desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
     github: 'https://github.com/dst2609/FlowMaster',
